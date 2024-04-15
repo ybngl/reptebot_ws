@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    <node name="Cok_Konusan" pkg="dedikodu" type="Cok_Konusan" output="screen" />
+    <node name="Cok_Dinleyen" pkg="dedikodu" type="Cok_Dinleyen" output="screen" />
+    <node name="rqt_graph" pkg="rqt_graph"  type="rqt_graph"  output="screen" />
+</launch>
+

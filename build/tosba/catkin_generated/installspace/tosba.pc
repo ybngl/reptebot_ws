@@ -1,0 +1,8 @@
+prefix=/home/ybngl/reptebot_ws/install
+
+Name: tosba
+Description: Description of tosba
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs

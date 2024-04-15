@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node"/>
+  <node pkg="tosba" type="tosbayi_yurut" name="tosbayi_yurut" args="turtle1" output="screen"/>
+
+</launch>
